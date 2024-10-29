@@ -1,1 +1,1 @@
-# GreenFlow
+Projeto Integrador do IOS: Uma empresa que, por meio do trabalho voluntário e da reciclagem, transforma resíduos em tijolos verdes e pisos de pneu, promovendo sustentabilidade e responsabilidade social.
