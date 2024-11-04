@@ -98,28 +98,25 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     padding: 20px;
 }
 
 .footer-content {
     display: flex;
+    align-items: flex-start;
     justify-content: space-around;
-    align-items: center;
     width: 100%;
     max-width: 1200px;
 }
 
-.footer img {
+.footer-logo {
     width: 69px;
     height: 63px;
     margin-right: 20px;
-    align-self: flex-start;
 }
 
 .footer-section {
     text-align: center;
-    margin: 0 20px;
 }
 
 .footer-section h3 {
@@ -133,13 +130,13 @@ main {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: left;
 }
 
 .footer-section ul li {
     color: #ffffff;
     font-size: 16px;
     margin: 2px 0;
+    text-align: left;
 }
 
 .footer-bottom {
@@ -160,7 +157,7 @@ main {
     .header {
         height: 100px;
     }
-    
+
     .logo {
         width: 90px;
         height: 85px;
@@ -186,7 +183,7 @@ main {
         font-size: 14px;
     }
 
-    .footer img {
+    .footer-logo {
         width: 60px;
         height: 55px;
     }
