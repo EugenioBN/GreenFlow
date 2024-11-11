@@ -3,68 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="parceiros.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-     <title>Green Flow</title>
-    
+    <title>Green Flow</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendas_parcerias.css">
 </head>
 <body>
-
     <header class="header">
-        <img src=".//assets/IMG/logo.png" alt="Logo" class="logo">
-        <h1 class="title">GREEN FLOW</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="vendas.html">Vendas</a>
-            <a href="parceiros.html">Parceria</a>
-            <div class="dropdown">
-                <a href="voluntariado.html" class="dropdown-toggle">Voluntariado</a>
-            </div>
-        </nav>
+        <div class="container d-flex justify-content-between align-items-center py-2">
+            <h1 class="title"><img src="assets/IMG/logo.png" alt="Logo" class="logo">GREEN FLOW</h1>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="vendas.html" class="nav-link">Vendas</a>
+                <a href="parceria.html" class="nav-link">Parceria</a>
+                <a href="voluntariado.html" class="nav-link">Voluntariado</a>
+            </nav>
+        </div>
     </header>
 
-    <div class="section">
-        <div class="section-title">EMPRESA PARCEIRAS</div>
-        <p>As empresas parceiras representam uma estratégia eficaz para alcançar o público-alvo de maneira mais ágil, ao mesmo tempo em que promovem o cuidado com o meio ambiente.</p>
-        <div class="partner-box">
-            <img src="assets/IMG/eureciclo.png" alt="eureciclo" width="100"> 
-            <p>eureciclo</p>
-            <img src="assets/IMG/jbs.png" alt="JBS" width="100"> 
-            <p>JBS</p>
-        </div>
-    </div>
-
-    <div class="section">
-        <div class="section-title">UNIVERSIDADES</div>
-        <p>As universidades parceiras são fundamentais para divulgar oportunidades de voluntariado entre os alunos de cursos relacionados ao meio ambiente. Este trabalho pode ser realizado durante as férias, permitindo viagens a diferentes locais, ou em horas de semana.  </p>
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="assets/IMG/usp.png" class="d-block w-100" alt="Universidade USP">
+    <section class="partners-section py-5">
+      <div class="container text-center">
+          <h2 class="mb-4">ALIANÇAS GREEN</h2>
+          <p class="mb-5">As nossas Alianças Green representam uma estratégia eficaz para alcançar o público-alvo de maneira mais ágil, ao mesmo tempo em que promovem o cuidado com o meio ambiente.</p>
+          <div class="row justify-content-center">
+              <div class="col-12 col-md-4 mb-4">
+                  <div class="partner-card p-3">
+                      <img src="assets/IMG/eureciclo.png" alt="Eureciclo Logo" class="partner-logo">
+                      <p class="partner-desc">A eureciclo, é uma de nossas alianças mantenedoras do Projeto Flow.</p>
+                  </div>
               </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="assets/IMG/unesp.png" class="d-block w-100" alt="Universidade UNESP">
+              <div class="col-12 col-md-4 mb-4">
+                  <div class="partner-card p-3">
+                      <img src="assets/IMG/jbs.png" alt="JBS Logo" class="partner-logo">
+                      <p class="partner-desc">A JBS, é uma de nossas alianças mantenedoras do Projeto Flow.</p>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4 mb-4">
+                  <div class="partner-card p-3">
+                      <img src="assets/IMG/yokohama.png" alt="Yokohama Logo" class="partner-logo">
+                      <p class="partner-desc">A Yokohama destina resíduos de pneus para a produção do DisoVerde.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+  <section class="universities py-5 text-center">
+    <div class="container">
+        <h2>UNIVERSIDADES</h2>
+        <p>As universidades parceiras são fundamentais para divulgar oportunidades de voluntariado entre os alunos de cursos relacionados ao meio ambiente. Esse trabalho pode ser realizado durante as férias, permitindo viagens a diferentes locais, ou em finais de semana.</p>
+        <div id="universityCarousel" class="carousel slide mt-4" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="university-card">
+                        <img src="assets/IMG/usp.png" class="university-logo" alt="USP Logo">
+                        <p class="university-name">Universidade de São Paulo</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="university-card">
+                        <img src="assets/IMG/unesp.png" class="university-logo" alt="UNESP Logo">
+                        <p class="university-name">Universidade Estadual Paulista</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="university-card">
+                        <img src="assets/IMG/belasartes.png" class="university-logo" alt="Belas Artes Logo">
+                        <p class="university-name">Belas Artes</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="university-card">
+                      <img src="assets/IMG/faap.png" class="university-logo" alt="FAAP Logo">
+                      <p class="university-name">Universidade FAAP</p>
+                  </div>
               </div>
               <div class="carousel-item">
-                <img src="assets/IMG/belasartes.png" class="d-block w-100" alt="Universidade Belas Artes">
-              </div>
+                <div class="university-card">
+                    <img src="assets/IMG/FGV.png" class="university-logo" alt="Universidade FGV Logo">
+                    <p class="university-name">Universidade FGV</p>
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-item">
+              <div class="university-card">
+                  <img src="assets/IMG/fiap.png" class="university-logo" alt="FIAP Logo">
+                  <p class="university-name">Universidade FIAP</p>
+              </div>
           </div>
-        
+          <div class="carousel-item">
+            <div class="university-card">
+                <img src="assets/IMG/mackenzie.png" class="university-logo" alt="Mackenzie Logo">
+                <p class="university-name">Universidade Mackenzie</p>
+            </div>
+        </div>
+            </div>
+            <a class="carousel-control-prev" href="#universityCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#universityCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
     </div>
+</section>
+
+<section class="partnership py-5 text-center">
+  <div class="container">
+      <h2>VENHA SER NOSSO PARCEIRO</h2>
+      <form action="#" class="partnership-form mt-4">
+          <div class="form-group">
+              <label for="name">Nome</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="Digite seu Nome!" required>
+          </div>
+          <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="Digite o e-mail corporativo" required>
+          </div>
+          <div class="form-group">
+              <label for="phone">Telefone</label>
+              <input type="tel" id="phone" name="phone" class="form-control" placeholder="Digite o telefone" required>
+          </div>
+          <div class="form-group">
+              <label for="message">Por que você gostaria de ser nosso parceiro?</label>
+              <textarea id="message" name="message" rows="4" class="form-control" placeholder="Mensagem"></textarea>
+          </div>
+          <button type="submit" class="btn btn-custom">Enviar</button>
+      </form>
+  </div>
+</section>
+
 
     <footer class="footer">
-        <div class="footer-top">
-            <div class="footer-content">
-                <img src=".//assets/IMG/logo_branco.png" alt="Logo Footer" class="footer-logo">
+        <div class="footer-top py-4">
+            <div class="container d-flex justify-content-between flex-wrap">
+                <img src="assets/IMG/logo_branco.png" alt="Logo Footer" class="footer-logo mb-3">
                 <div class="footer-section">
                     <h3>MAPA DO SITE</h3>
                     <ul>
@@ -91,10 +165,13 @@
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 GreenFlow. Todos os direitos reservados.</p>
+        <div class="footer-bottom py-3 text-center">
+            <p>&copy; 2024 Green Flow. Todos os direitos reservados.</p>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
