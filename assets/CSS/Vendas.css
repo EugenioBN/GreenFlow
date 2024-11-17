@@ -7,7 +7,7 @@ body {
 
 .header {
     width: 100%;
-    height: 123.5px;
+    height: 100px;
     background-color: rgba(195, 198, 172, 0.51);
     position: fixed;
     top: 0;
@@ -86,6 +86,14 @@ nav a:hover, nav a.active {
 main {
     padding-top: 150px;
 }
+.button-W {
+    padding: 1%;
+    padding: 1rem;
+    font-size: 1rem;
+    justify-content: right;
+    display: flex;
+
+}
 
 .footer {
     width: 100%;
@@ -94,11 +102,11 @@ main {
 .footer-top {
     background-color: #79946d;
     width: 100%;
-    height: 272px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 1%;
 }
 
 .footer-content {
@@ -110,7 +118,8 @@ main {
 }
 
 .footer-logo {
-    width: 69px;
+    justify-content: right;
+    width: 50px;
     height: 63px;
     margin-right: 20px;
 }
@@ -142,7 +151,7 @@ main {
 .footer-bottom {
     background-color: #393e2b;
     width: 100%;
-    height: 64px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
