@@ -157,11 +157,6 @@ main {
     align-items: center;
 }
 
-.footer-bottom p {
-    font-size: 14px;
-    color: #ffffff;
-}
-
 @media (max-width: 1024px) {
     .header {
         height: 100px;
