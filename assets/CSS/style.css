@@ -533,12 +533,22 @@ main img {
     padding-top: 30px;
 }
 
+.fundo5 li {
+    color: white;
+    font-size: 20px;
+}
+
+.fundo5 p {
+    color: white;
+    font-size: 27px;
+}
+
 .container-fundo5 {
     display: flex;
     flex-direction: column;
     gap: 0px;
-    width: 514px;
-    padding-top: 80px;
+    width: 600px;
+    padding-top: 60px;
 }
 
 .header-fundo5 {
@@ -549,8 +559,8 @@ main img {
 
 
 .header-fundo5 img {
-    width: 20px;
-    height: 20px;
+    width: 60px;
+    height: 60px;
 }
 
 .fundo6 {
