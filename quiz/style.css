@@ -164,10 +164,12 @@ body {
     }
 
     .container {
-        background-color: #fdf8e7;
+        /* background-color: #fdf8e7; */
+        mix-blend-mode: darken;
         width: 90%;
         max-width: 800px;
 
+        /* color: #393e2b; */
         border: 2px solid #a9b89b;
         border-radius: 6px;
         padding: 16px;
