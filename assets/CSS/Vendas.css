@@ -7,7 +7,11 @@ body {
 
 .header {
     width: 100%;
+<<<<<<< HEAD
     height: 100px;
+=======
+    height: 123.5px;
+>>>>>>> 4053f84d026e4629f7079d9926b0506068cb1b39
     background-color: rgba(195, 198, 172, 0.51);
     position: fixed;
     top: 0;
@@ -86,6 +90,7 @@ nav a:hover, nav a.active {
 main {
     padding-top: 150px;
 }
+<<<<<<< HEAD
 .button-W {
     padding: 1%;
     padding: 1rem;
@@ -94,6 +99,8 @@ main {
     display: flex;
 
 }
+=======
+>>>>>>> 4053f84d026e4629f7079d9926b0506068cb1b39
 
 .footer {
     width: 100%;
@@ -102,11 +109,19 @@ main {
 .footer-top {
     background-color: #79946d;
     width: 100%;
+<<<<<<< HEAD
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1%;
+=======
+    height: 272px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+>>>>>>> 4053f84d026e4629f7079d9926b0506068cb1b39
 }
 
 .footer-content {
@@ -118,8 +133,12 @@ main {
 }
 
 .footer-logo {
+<<<<<<< HEAD
     justify-content: right;
     width: 50px;
+=======
+    width: 69px;
+>>>>>>> 4053f84d026e4629f7079d9926b0506068cb1b39
     height: 63px;
     margin-right: 20px;
 }
@@ -151,12 +170,24 @@ main {
 .footer-bottom {
     background-color: #393e2b;
     width: 100%;
+<<<<<<< HEAD
     height: 30px;
+=======
+    height: 64px;
+>>>>>>> 4053f84d026e4629f7079d9926b0506068cb1b39
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+<<<<<<< HEAD
+=======
+.footer-bottom p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+>>>>>>> 4053f84d026e4629f7079d9926b0506068cb1b39
 @media (max-width: 1024px) {
     .header {
         height: 100px;
