@@ -1,22 +1,27 @@
 * {
     box-sizing: border-box;
-}
-
-body {
+  }
+  
+  body {
     background-color: #fdf8e7;
     margin: 0;
     padding: 0;
-    font-family: 'Cocomat Pro', sans-serif;
+    font-family: "Cocomat Pro", sans-serif;
     overflow-x: hidden;
-}
-
-.header {
+  }
+  
+  .header {
     width: 100%;
-    background-color: rgba(195, 198, 172, 0.51); /* Semi-transparent background color */
-    background-image: url(../IMG/Voluntariado/header.png.png); /* Background image */
-    background-size: cover; /* Cover the entire background area */
-    background-position: center center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent image repetition */
+    background-color: rgba(
+      195,
+      198,
+      172,
+      0.51
+    ); /* Semi-transparent background color */
+    background-image: url(.);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     position: fixed;
     top: 0;
     left: 0;
@@ -26,233 +31,370 @@ body {
     align-items: center;
     padding: 10px;
     flex-wrap: wrap;
-}
-
-header nav{
+  }
+  
+  header nav {
     transition: all 0.5s ease-in-out;
-}
-
-.logo {
+  }
+  
+  .logo {
     width: 80px;
     height: auto;
     align-items: center;
-}
-
-.title {
+  }
+  
+  .title {
     font-weight: bold;
     font-size: 24px;
     color: #ffffff;
     margin: 0;
     display: flex;
     align-items: center;
-}
-
-nav {
+  }
+  
+  nav {
     display: flex;
     gap: 10px;
     align-items: center;
     flex-wrap: wrap;
-    
-}
-
-nav a {
+  }
+  
+  nav a {
     text-decoration: none;
     font-weight: bold;
     color: #ffffff;
     padding: 8px 15px;
     border-radius: 5px;
-}
-
-nav a:hover, nav a.active {
+  }
+  
+  nav a:hover,
+  nav a.active {
     background-color: #79946d;
     transition: all 0.5s ease;
-}
+  }
+  
 
-.dropdown {
-    position: relative;
-}
-
-.dropdown-content {
+  
+  /* .dropdown-content {
     display: none;
     position: absolute;
     background-color: rgba(195, 198, 172, 0.51);
     min-width: 160px;
     z-index: 1;
-}
+  } */
+  
 
-/* .dropdown:hover .dropdown-content {
-    display: block;
-} */
- 
-
-.dropdown-content a {
-    padding: 8px 15px;
-    color: #ffffff;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #79946d;
-}
-
-main {
-    background-color: #fdf8e7;
+  
+  .container {
+    background-color: rgb(172, 187, 157);
     padding-top: 150px;
-    text-align: center;
-}
-
-/* main img {
-    max-width: 100%;
-    height: auto;
-    margin: 10px;
-} */
-
-
-
-
-.footer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .projetoFlow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    color: #fdf8e7;
+  }
+  
+  .imgFundo {
+    margin-top: -150px;
     width: 100%;
-}
-
-.footer-top {
+  }
+  
+  .informacoes1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  
+  .informacoes1 h3 {
+    margin-left: 50px;
+  }
+  
+  .informacoes1 p {
+    text-align: center;
+  }
+  
+  .informacoes2 {
+    display: flex;
+    align-items: center;
+    margin: 16px;
+    gap: 30px;
+  }
+  
+  .listaInformacoes2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /*botão inscrição*/
+  .informacoes2 a {
+    color: #fdf8e7;
+    border: 1px solid #fdf8e7;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /*Início vonluntariado*/
+  .voluntariado {
+    padding-top: 90px;
+    background-color: rgb(253, 248, 231);
+    background-image: url(../IMG/Voluntariado/arvoreVoluntariado.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    padding-bottom: 100px;
+  }
+  
+  .informacoesVoluntariado1 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+  }
+  
+  .imagemVonluntariado1 {
+    width: 35%;
+    height: 35%;
+    padding: 30px;
+    background-color: rgb(172, 187, 157);
+    border-radius: 0 150px 150px 0;
+  }
+  .textoVoluntariado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .textoVoluntariado a {
+    color: #222836;
+    border: 1px solid #222836;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .informacoesVoluntariado2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .listaVoluntariado {
+    margin-left: 200px;
+  }
+  
+  .listaVoluntariado1 {
+    display: flex;
+  }
+  
+  .imagemVoluntariado2 {
+    width: 35%;
+    height: 35%;
+    padding: 30px;
+    background-color: rgb(172, 187, 157);
+    border-radius: 150px 0 0 150px;
+  }
+  /*Fim voluntariado*/
+  
+  .footer {
+    width: 100%;
+  }
+  
+  .footer-top {
     background-color: #79946d;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
     flex-wrap: wrap;
-}
-
-.footer-content {
+  }
+  
+  .footer-content {
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
     width: 100%;
     max-width: 1200px;
     flex-wrap: wrap;
-}
-
-.footer-logo {
+  }
+  
+  .footer-logo {
     width: 50px;
     height: auto;
     margin-right: 20px;
-}
-
-.footer-section {
+  }
+  
+  .footer-section {
     text-align: center;
     margin: 10px;
-}
-
-.footer-section h3 {
+  }
+  
+  .footer-section h3 {
     font-weight: bold;
     color: #ffffff;
     font-size: 18px;
     margin: 0 0 5px;
-}
-
-.footer-section ul {
+  }
+  
+  .footer-section ul {
     list-style: none;
     padding: 0;
     margin: 0;
-}
-
-.footer-section ul li {
+  }
+  
+  .footer-section ul li {
     color: #ffffff;
     font-size: 16px;
     margin: 2px 0;
     text-align: left;
-}
-
-.footer-bottom {
+  }
+  
+  .footer-bottom {
     background-color: #393e2b;
     width: 100%;
     text-align: center;
     padding: 15px 0;
-}
-
-.footer-bottom p {
+  }
+  
+  .footer-bottom p {
     font-size: 14px;
     color: #ffffff;
-}
-
-@media (max-width: 1024px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 10px;
-    }
-
-    .title {
-        font-size: 20px;
-    }
-
-    nav {
-        justify-content: center;
-        width: 100%;
-    }
-
-    nav a {
-        font-size: 14px;
-    }
-
-    .footer-section h3 {
-        font-size: 16px;
-    }
-
-    .footer-section ul li {
-        font-size: 14px;
-    }
-
-    .footer-logo {
-        width: 40px;
-    }
-
-    .footer-bottom p {
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 768px) {
-    .header {
-        padding: 10px;
-    }
-
-    .title {
-        font-size: 18px;
-    }
-
-    nav {
-        gap: 5px;
-    }
-
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
-    }
-    .imagemP{
-        height:250px ;
-        width:250px ;
-    }
-
-}
-/* Gabi */
-
-
-
-.container{
-    display: grid;
-    grid-template-columns: 40px, 50px, auto, 50px, 40px;
-    grid-template-rows: 40px, 40px;
-    column-gap: normal;
-    row-gap: normal;
-    justify-items: center;
-    /* background-color: #79946d; */
+  }
   
-}
-.conjunto{
-    mix-blend-mode: darken;
-    position: relative;
-    left: 0;
-    top: 0;
-}
+  @media (max-width: 1024px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 20px;
+    }
+  
+    nav {
+      justify-content: center;
+      width: 100%;
+    }
+  
+    nav a {
+      font-size: 14px;
+    }
+  
+    .footer-section h3 {
+      font-size: 16px;
+    }
+  
+    .footer-section ul li {
+      font-size: 14px;
+    }
+  
+    .footer-logo {
+      width: 40px;
+    }
+  
+    .footer-bottom p {
+      font-size: 12px;
+    }
+  
+    .informacoes2 {
+      flex-direction: column;
+    }
+  
+    .informacoesVoluntariado1 {
+      margin-right: 0;
+      gap: 30px;
+    }
+  
+    .textoVoluntariado {
+      width: 400px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 18px;
+    }
+  
+    nav {
+      gap: 5px;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    .imagemP {
+      height: 250px;
+      width: 250px;
+    }
+  
+  
+    .informacoesVoluntariado1{
+      margin-right: 0;
+      gap: 30px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .informacoesVoluntariado2{
+      margin-right: 0;
+      gap: 30px;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .imagemVonluntariado1, .imagemVoluntariado2{
+      width: 90%;
+      border-radius: 150px 150px 150px 150px;
+    }
+  
+    .listaVoluntariado{
+      margin-left: 0;
+    }
+  
+    .conjunto{
+      width: 80%;
+    }
+  
+    .textoVoluntariado{
+      text-align: center;
+    }
+  
+    .informacoes1{
+      margin-left: 0;
+      padding: 0 20px;
+    }
+  }
+  
+  @media (max-width: 400px){
+      .textoVoluntariado{
+          width: 300px;
+      }
+  }
+
+  .incrições:hover{
+    filter: brightness(0.8);
+  }

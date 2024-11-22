@@ -1,0 +1,251 @@
+* {
+    
+        box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+        background-image: url(../assets/IMG/Voluntariado/arvoreVoluntariado.png);
+        background-size: 55%;
+       
+        /* Faz a imagem cobrir toda a área */
+        background-position: center;
+        /* Centraliza a imagem */
+        background-repeat: no-repeat;
+        background-color: #fdf8e7;
+        color: #090101;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header {
+        width: 100%;
+        background-color: rgba(
+          195,
+          198,
+          172,
+          0.51
+        ); /* Semi-transparent background color */
+        background-image: url();
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        flex-wrap: wrap;
+      }
+
+      header nav {
+        transition: all 0.5s ease-in-out;
+      }
+
+      .logo {
+        width: 80px;
+        height: auto;
+        align-items: center;
+      }
+
+      .title {
+        font-weight: bold;
+        font-size: 24px;
+        color: #ffffff;
+        margin: 0;
+        display: flex;
+        align-items: center;
+      }
+
+      
+
+      .footer {
+        width: 100%;
+        /* position: static; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      
+      .footer-top {
+        background-color: #79946d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        flex-wrap: wrap;
+      }
+      
+      .footer-content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 1200px;
+        flex-wrap: wrap;
+      }
+      
+      .footer-logo {
+        width: 50px;
+        height: auto;
+        margin-right: 20px;
+      }
+      
+      .footer-section {
+        text-align: center;
+        margin: 10px;
+      }
+      
+      .footer-section h3 {
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 18px;
+        margin: 0 0 5px;
+      }
+      
+      .footer-section ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .footer-section ul li {
+        color: #ffffff;
+        font-size: 16px;
+        margin: 2px 0;
+        text-align: left;
+      }
+      
+      .footer-bottom {
+        background-color: #393e2b;
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+      }
+      
+      .footer-bottom p {
+        font-size: 14px;
+        color: #ffffff;
+      }
+    
+    @media (max-width: 1024px) {
+        .header {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 10px;
+        }
+    
+        .title {
+            font-size: 20px;
+        }
+    
+        nav {
+            justify-content: center;
+            width: 100%;
+        }
+    
+        nav a {
+            font-size: 14px;
+        }
+    
+    }
+
+    .container {
+        background-color: #fdf8e7;
+        width: 90%;
+        max-width: 800px;
+
+        border: 2px solid #a9b89b;
+        border-radius: 6px;
+        padding: 16px;
+        box-shadow: 0 0 2px 2px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .questions-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .question {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .answers-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+
+    .answer:disabled {
+        cursor: not-allowed;
+    }
+
+    .next-question {
+        margin-top: 32px;
+    }
+
+    .button {
+        background-color: #a9b89b;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        border: 0;
+        border-radius: 6px;
+        height: 48px;
+        padding: 0 32px;
+
+        transition: filter 0.1s;
+    }
+
+    .button:not(:disabled):hover {
+        filter: brightness(0.8);
+    }
+
+    /* Finish game */
+    .final-message {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .final-message span {
+        display: block;
+        margin-top: 8px;
+    }
+
+    /* General styles */
+    .hide {
+        display: none;
+    }
+
+    .correct {
+        border: #049b48;
+    }
+
+    .incorrect {
+        border: #a10101;
+    }
+    
