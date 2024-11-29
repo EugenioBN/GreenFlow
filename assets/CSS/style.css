@@ -1,14 +1,6 @@
-@font-face {
-    font-family: 'Cocomat';
-    src: url('../IMG/Fonts/Cocomat/Light-trial.ttf') format('ttf'),
-        url('../IMG/Fonts/Cocomat/Ultralight-trial.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
 * {
     box-sizing: border-box;
-    font-family: 'Cocomat', sans-serif;
+    font-family: "Cocomat Pro", sans-serif;
 }
 
 body {
@@ -36,7 +28,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding-bottom: 10px;
     flex-wrap: wrap;
 }
 
@@ -72,6 +64,25 @@ nav a {
     color: #ffffff;
     padding: 8px 15px;
     border-radius: 5px;
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    /* Ocultar no desktop */
+}
+
+/* Navegação (desktop e mobile) */
+.nav-links {
+    display: flex;
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+    visibility: visible;
 }
 
 nav a:hover,
@@ -119,8 +130,8 @@ main img {
     border-bottom: 20px solid #8fad96;
     border-radius: 15px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    width: 454.1px;
-    height: 454.7px;
+    width: 510px;
+    height: 370px;
 }
 
 .pneulixo {
@@ -129,8 +140,8 @@ main img {
     border-bottom: 20px solid #8fad96;
     border-radius: 15px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    width: 333px;
-    height: 333px;
+    width: 370px;
+    height: 300px;
     position: absolute;
     margin-top: 210px;
     margin-left: 210px;
@@ -141,7 +152,7 @@ main img {
     align-items: center;
     justify-content: space-between;
     gap: 80px;
-    height: 95vh;
+    height: 70vh;
     padding-left: 40px;
 }
 
@@ -160,7 +171,7 @@ main img {
     width: 100%;
 }
 
-.footer {
+/*.footer {
     width: 100%;
 }
 
@@ -224,6 +235,67 @@ main img {
 .footer-bottom p {
     font-size: 14px;
     color: #ffffff;
+}*/
+
+.footer {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.footer-top {
+    background-color: #6b7a55;
+    color: #ffffff;
+    padding: 40px 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 10px;
+    position: left;
+}
+
+.footer-desc {
+    color: #dcdcdc;
+    font-size: 14px;
+}
+
+.footer-section h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #dcdcdc;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ffffff;
+}
+
+.footer-bottom {
+    background-color: #393e2b;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #dcdcdc;
 }
 
 .imagemP {
@@ -329,7 +401,6 @@ main img {
     width: 100%;
     height: 70vh;
     background-image: url('../IMG/mapamundi.png');
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -362,8 +433,8 @@ main img {
 }
 
 .card-image img {
-    width: 80px;
-    height: 80px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     border: 2px solid #ddd;
 }
@@ -372,6 +443,12 @@ main img {
     width: 100%;
     text-align: center;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    gap: 32px;
+
 }
 
 .divider {
@@ -381,28 +458,23 @@ main img {
     margin: 10px 0;
 }
 
+
+
 .card-text {
     margin: -10px 0 10px 0;
     font-size: 14px;
     color: #555;
-    background-color: #fff;
     display: inline-block;
     padding: 0 10px;
 }
 
 .card-button {
-    background-color: #007bff;
-    color: white;
+    background-color: #b4c7b2;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
 }
 
-.card-button:hover {
-    background-color: #0056b3;
-}
 
 .conteiner-history {
     display: flex;
@@ -504,6 +576,7 @@ main img {
     flex-direction: row;
     align-items: center;
     gap: 30px;
+    justify-content: center;
 
 }
 
@@ -566,12 +639,13 @@ li {
     .header {
         flex-direction: column;
         align-items: flex-start;
-        padding: 10px;
+        padding-bottom: 10px;
     }
 
-    .fundo4{
+    .fundo4 {
         height: 47vh;
     }
+
     .title {
         font-size: 20px;
     }
@@ -606,19 +680,27 @@ li {
 
 @media (max-width: 480px) {
 
-    .card{
-        width: 12rem;
-        height: 19rem;
-    }
-
-
     body {
-        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden !important;
     }
 
+
+
+    .history-text p {
+        font-size: 1.28rem;
+        width: auto;
+        text-align: center;
+    }
 
     .fundo1 {
         height: auto;
+    }
+
+    .fundo4 {
+        height: 57vb;
     }
 
     .splide__slide {
@@ -635,7 +717,16 @@ li {
         overflow: hidden;
         /* Impede que o conteúdo ultrapasse a área visível */
     }
+    .fundo2{
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 
+
+    .card-container{
+        flex-direction: column;
+    }
     .container-fundo1 {
         max-width: 100%;
     }
@@ -671,7 +762,6 @@ li {
     .containerfotoemcima {
         padding-left: 0;
         align-items: center;
-        padding-top: 7rem;
     }
 
     .barcolixo,
@@ -724,7 +814,8 @@ li {
 
     #img-p-down {
         width: auto;
-        font-size: 1.48rem;
+        font-size: 1.28rem;
+        text-align: center;
     }
 
     .title-container {
@@ -755,7 +846,7 @@ li {
     }
 
     .header {
-        padding: 10px;
+        padding-bottom: 10px;
         width: 100%;
     }
 
@@ -798,13 +889,36 @@ li {
         text-align: center;
     }
 
-    .containertopo {
-        display: none;
-    }
 }
 
 @media (max-width: 768px) {
-    .header {
-        padding: 10px;
+    .menu-toggle {
+        display: block;
+        /* Mostrar o botão no mobile */
+    }
+
+    .nav-links {
+        opacity: 0;
+        /* Esconder com transição */
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+    .nav-links.open {
+        opacity: 1;
+        /* Mostrar menu ao clicar no botão */
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .button-contei {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-right: 20px;
+    }
+    header{
+        height: auto;
     }
 }
