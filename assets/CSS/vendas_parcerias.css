@@ -1,9 +1,3 @@
-/*@font-face {
-    font-family: 'Cocomat';
-     src: url('/assets/IMG/rio.png') format('png');
-    font-weight: normal;
-    font-style: normal;
-}*/
 * {
     margin: 0;
     padding: 0;
@@ -78,7 +72,7 @@ nav a.active {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 20% 20% 20% 20%;
+        padding: 0% 0% 0% 0%;
     }
 
 
