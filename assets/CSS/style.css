@@ -165,6 +165,7 @@ main img {
     width: 551.7px;
     height: 29.9px;
     font-size: 40px;
+    margin-bottom: 60px;
 }
 
 .TopHome {
@@ -781,6 +782,7 @@ li {
     .containercimacima h2 {
         font-size: 18px;
         width: 100%;
+        margin-bottom: 0px;
     }
 
 
