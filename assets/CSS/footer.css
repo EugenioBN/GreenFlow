@@ -1,0 +1,129 @@
+/* Geral */
+.footer {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/* Parte Superior do Footer */
+.footer-top {
+    background-color: #6b7a55;
+    color: #ffffff;
+    padding: 40px 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.container30 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+
+.footer-section li {
+    margin-right: 0px;
+}
+
+/* Logo e Descrição */
+.footer-logo-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.footer-desc {
+    color: #dcdcdc;
+    font-size: 14px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Conteúdo Secundário */
+.container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.footer-section h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #dcdcdc;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ffffff;
+}
+
+/* Parte Inferior do Footer */
+.footer-bottom {
+    background-color: #393e2b;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #dcdcdc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#divvoluntariado {
+    padding-left: 118px;
+
+}
+
+
+/* Responsivo */
+@media (max-width: 768px) {
+
+
+    .container-footer {
+        flex-direction: column;
+    }
+
+    .container30 {
+        gap: 0px;
+    }
+
+    .footer-logo-section {
+        margin-bottom: 20px;
+    }
+
+    #motivos {
+        width: 100%;
+    }
+}

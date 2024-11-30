@@ -1,0 +1,142 @@
+.header {
+    width: 100%;
+    background-color: rgba(195,
+            198,
+            172,
+            0.51);
+    /* Semi-transparent background color */
+    background-image: url(.);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header nav {
+    transition: all 0.5s ease-in-out;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    align-items: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    /* Ocultar no desktop */
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+    visibility: visible;
+    padding-right: 50px;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #79946d;
+    transition: all 0.5s ease;
+}
+
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        /* Mostrar o botão no mobile */
+    }
+
+    .nav-links {
+        opacity: 0;
+        /* Esconder com transição */
+        visibility: hidden;
+        pointer-events: none;
+        gap: 40px;
+    }
+
+    .nav-links.open {
+        opacity: 1;
+        /* Mostrar menu ao clicar no botão */
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .button-contei {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-right: 20px;
+    }
+
+    header {
+        height: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .fundo4 {
+        height: 47vh;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .nav-links {
+        padding-right: 0px;
+    }
+
+    nav {
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    nav a {
+        font-size: 14px;
+    }
+}

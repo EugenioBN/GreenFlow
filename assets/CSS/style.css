@@ -28,7 +28,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 10px;
+    ;
     flex-wrap: wrap;
 }
 
@@ -83,6 +83,7 @@ nav a {
     transition: all 0.3s ease-in-out;
     opacity: 1;
     visibility: visible;
+    padding-right: 50px;
 }
 
 nav a:hover,
@@ -172,132 +173,6 @@ main img {
     width: 100%;
 }
 
-/*.footer {
-    width: 100%;
-}
-
-.footer-top {
-    background-color: #79946d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    flex-wrap: wrap;
-}
-
-.footer-content {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    width: 100%;
-    max-width: 1200px;
-    flex-wrap: wrap;
-}
-
-.footer-logo {
-    width: 50px;
-    height: auto;
-    margin-right: 20px;
-}
-
-.footer-section {
-    text-align: center;
-    margin: 10px;
-
-}
-
-.footer-section h3 {
-    font-weight: bold;
-    color: #ffffff;
-    font-size: 18px;
-    margin: 0 0 5px;
-}
-
-.footer-section ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer-section ul li {
-    color: #ffffff;
-    font-size: 16px;
-    margin: 2px 0;
-    text-align: left;
-}
-
-.footer-bottom {
-    background-color: #393e2b;
-    width: 100%;
-    text-align: center;
-    padding: 15px 0;
-}
-
-.footer-bottom p {
-    font-size: 14px;
-    color: #ffffff;
-}*/
-
-.footer {
-    background-color: #2b2b2b;
-    color: #ffffff;
-    font-size: 16px;
-}
-
-.footer-top {
-    background-color: #6b7a55;
-    color: #ffffff;
-    padding: 40px 20px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.footer-logo {
-    width: 150px;
-    margin-bottom: 10px;
-    position: left;
-}
-
-.footer-desc {
-    color: #dcdcdc;
-    font-size: 14px;
-}
-
-.footer-section h3 {
-    font-weight: bold;
-    font-size: 18px;
-    color: #ffffff;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-}
-
-.footer-section ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer-section ul li {
-    margin-bottom: 8px;
-}
-
-.footer-section ul li a {
-    text-decoration: none;
-    color: #dcdcdc;
-    transition: color 0.3s;
-}
-
-.footer-section ul li a:hover {
-    color: #ffffff;
-}
-
-.footer-bottom {
-    background-color: #393e2b;
-    padding: 15px 0;
-    text-align: center;
-    font-size: 14px;
-    color: #dcdcdc;
-}
 
 .imagemP {
     width: 640px;
@@ -531,7 +406,7 @@ main img {
 
 .fundo5 {
     width: 100%;
-    height: 90vb;
+    height: 95vb;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -640,7 +515,6 @@ li {
     .header {
         flex-direction: column;
         align-items: flex-start;
-        padding-bottom: 10px;
     }
 
     .fundo4 {
@@ -661,21 +535,6 @@ li {
         font-size: 14px;
     }
 
-    .footer-section h3 {
-        font-size: 16px;
-    }
-
-    .footer-section ul li {
-        font-size: 14px;
-    }
-
-    .footer-logo {
-        width: 40px;
-    }
-
-    .footer-bottom p {
-        font-size: 12px;
-    }
 }
 
 
@@ -718,16 +577,18 @@ li {
         overflow: hidden;
         /* Impede que o conteúdo ultrapasse a área visível */
     }
-    .fundo2{
+
+    .fundo2 {
         height: auto;
         padding-top: 30px;
         padding-bottom: 30px;
     }
 
 
-    .card-container{
+    .card-container {
         flex-direction: column;
     }
+
     .container-fundo1 {
         max-width: 100%;
     }
@@ -809,6 +670,9 @@ li {
         font-size: 18px;
     }
 
+    .nav-links {
+        padding-right: 0px;
+    }
 
     .carrosel-container img {
         width: 300px;
@@ -825,15 +689,6 @@ li {
         gap: 5px;
     }
 
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-section {
-        margin: 10px 0;
-    }
-
     .history-text,
     .history-img {
         width: 100%;
@@ -848,7 +703,6 @@ li {
     }
 
     .header {
-        padding-bottom: 10px;
         width: 100%;
     }
 
@@ -920,7 +774,8 @@ li {
         width: 100%;
         padding-right: 20px;
     }
-    header{
+
+    header {
         height: auto;
     }
 }
