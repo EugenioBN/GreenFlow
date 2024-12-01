@@ -18,6 +18,16 @@ body {
     align-items: center;
     padding: 0 15px;
 }
+.containertopo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Certifica-se de que o elemento esteja acima de outros */
+}
+
+.TopHome {
+    width: 100%;
+}
 
 .logo {
     width: 120px;
