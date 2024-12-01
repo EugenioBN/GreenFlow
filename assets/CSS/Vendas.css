@@ -2,183 +2,127 @@ body {
     background-color: #fdf8e7;
     margin: 0;
     padding: 0;
-    font-family: 'Cocomat Pro', sans-serif;
+    overflow-x: hidden;
 }
 
-.logo {
-    width: 120px;
-    height: 110px;
-    position: absolute;
-    left: 10px;
-    top: calc(50% - 55px);
-}
-
-.title {
-    font-weight: bold;
-    font-size: 36px;
-    color: #ffffff;
-    margin: 0;
+.fundo1 {
+    padding-top: 80px;
+    width: 100%;
+    height: 66vh;
+    background-image: url('../IMG/header_vendas.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-left: 150px;
+
 }
 
-nav {
+.block-fundo2 {
     display: flex;
-    gap: 10px;
+    justify-content: flex-end;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.fundo2-container {
+    display: flex;
+    background-color: #c8c9b1;
+    height: 30rem;
+    width: 80%;
+}
+
+.fundo2-text {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    transform: translateX(-25%);
+    width: 50%;
+    margin: 0 auto;
+
+
 }
 
-nav a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #ffffff;
-    padding: 10px 20px;
-    border-radius: 5px;
+.fundo2-text ul li {
+    font-size: 22px;
+    padding-bottom: 30px;
+
 }
 
-nav a:hover, nav a.active {
-    background-color: #79946d;
-}
-
-.dropdown {
-    position: relative;
-}
-
-.dropdown-content {
+.text-mobile {
     display: none;
-    position: absolute;
-    background-color: rgba(195, 198, 172, 0.51);
-    min-width: 160px;
-    z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-content a {
-    padding: 10px 20px;
-    color: #ffffff;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #79946d;
-}
-
-main {
-    padding-top: 150px;
-}
-.button-W {
-    padding: 1%;
-    padding: 1rem;
-    font-size: 1rem;
-    justify-content: right;
+.li-text {
     display: flex;
+    flex-direction: column;
 
 }
 
-.footer {
-    width: 100%;
-}
-
-.footer-top {
-    background-color: #79946d;
-    width: 100%;
-    height: 100px;
+.orca-button {
     display: flex;
+    gap: 20px;
+    border: 1px solid #544d4d;
+    border-radius: 50px;
     justify-content: center;
     align-items: center;
-    padding: 1%;
+    margin-bottom: 30px;
 }
 
-.footer-content {
+.li-text li {
+    color: #416449;
+}
+
+.block-fundo3 {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    width: 100%;
-    max-width: 1200px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
-.footer-logo {
-    justify-content: right;
-    width: 50px;
-    height: 63px;
-    margin-right: 20px;
+/* .fundo2 {
+    background-image: url('caminho-da-imagem-1.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-.footer-section {
-    text-align: center;
+.fundo3 {
+    background-image: url('caminho-da-imagem-1.jpg');
+    background-size: cover;
+    background-position: center;
+} */
+
+li span {
+    color: #416449;
+    font-size: 24px;
+    font-weight: 700;
 }
 
-.footer-section h3 {
-    font-weight: bold;
-    color: #ffffff;
-    font-size: 18px;
-    margin: 0 0 5px;
-}
+@media (max-width: 424px) {
 
-.footer-section ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer-section ul li {
-    color: #ffffff;
-    font-size: 16px;
-    margin: 2px 0;
-    text-align: left;
-}
-
-.footer-bottom {
-    background-color: #393e2b;
-    width: 100%;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@media (max-width: 1024px) {
-    .header {
-        height: 100px;
+    .fundo1 {
+        height: auto;
+        padding-bottom: 20px;
     }
 
-    .logo {
-        width: 90px;
-        height: 85px;
-        left: 10px; 
-        top: calc(50% - 42.5px);
+    .block-fundo2,
+    .block-fundo3 {
+        display: none;
     }
 
-    .title {
-        font-size: 28px;
-        left: 140px;
-        top: calc(50% - 14px);
+    .text-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #b4c7b2;
+        justify-content: center;
+        height: 70vh;
     }
 
-    nav a {
-        font-size: 14px;
+    .text-mobile h1{
+        font-size: 40px;
     }
-
-    .footer-section h3 {
-        font-size: 16px;
-    }
-
-    .footer-section ul li {
-        font-size: 14px;
-    }
-
-    .footer-logo {
-        width: 60px;
-        height: 55px;
-    }
-
-    .footer-bottom p {
-        font-size: 14px;
+    .text-mobile p {
+        text-align: center;
+        font-size: 19px;
     }
 }
