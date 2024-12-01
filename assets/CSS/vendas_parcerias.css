@@ -10,53 +10,6 @@ body {
     background-color: #acbb9c;
 }
 
-.header {
-    width: 100%;
-    background-color: rgba(195, 198, 172, 0.51);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    flex-wrap: wrap;
-}
-
-.logo {
-    width: 80px;
-    height: auto;
-    align-items: center;
-}
-
-.title {
-    font-weight: bold;
-    font-size: 24px;
-    color: #ffffff;
-    margin: 0;
-    display: flex;
-    align-items: center;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-nav a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #ffffff;
-    padding: 8px 15px;
-    border-radius: 5px;
-}
-
-nav a:hover,
-nav a.active {
-    background-color: #79946d;
-}
 .containerfundo{
     background-image: url('../IMG/FundoParceiro.png');
     background-size: 55%;
