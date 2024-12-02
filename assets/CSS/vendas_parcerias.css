@@ -52,6 +52,15 @@ nav a {
     padding: 8px 15px;
     border-radius: 5px;
 }
+.menu-toggle {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    /* Ocultar no desktop */
+}
 
 nav a:hover,
 nav a.active {
