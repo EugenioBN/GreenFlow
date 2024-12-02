@@ -10,7 +10,6 @@ body {
     background-color: #acbb9c;
 }
 
-<<<<<<< HEAD
 .header {
     width: 100%;
     background-color: rgba(195, 198, 172, 0.51);
@@ -67,8 +66,6 @@ nav a:hover,
 nav a.active {
     background-color: #79946d;
 }
-=======
->>>>>>> 824bfee03f5643b262633b04d080c8262ed2dea0
 .containerfundo{
     background-image: url('../IMG/FundoParceiro.png');
     background-size: 55%;
