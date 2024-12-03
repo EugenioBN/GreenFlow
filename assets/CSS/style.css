@@ -1,93 +1,15 @@
-
+* {
+    font-family: "Cocomat Pro", sans-serif;
+}
 
 body {
     background-color: #fdf8e7;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+
 }
 
-.header {
-    width: 100%;
-    background-color: rgba(195,
-            198,
-            172,
-            0.51);
-    /* Semi-transparent background color */
-    background-image: url(.);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    ;
-    flex-wrap: wrap;
-}
-
-header nav {
-    transition: all 0.5s ease-in-out;
-}
-
-.logo {
-    width: 80px;
-    height: auto;
-    align-items: center;
-}
-
-.title {
-    font-weight: bold;
-    font-size: 24px;
-    color: #ffffff;
-    margin: 0;
-    display: flex;
-    align-items: center;
-}
-
-nav {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-nav a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #ffffff;
-    padding: 8px 15px;
-    border-radius: 5px;
-}
-
-.menu-toggle {
-    background: none;
-    border: none;
-    color: #ffffff;
-    font-size: 24px;
-    cursor: pointer;
-    display: none;
-    /* Ocultar no desktop */
-}
-
-/* Navegação (desktop e mobile) */
-.nav-links {
-    display: flex;
-    gap: 10px;
-    transition: all 0.3s ease-in-out;
-    opacity: 1;
-    visibility: visible;
-    padding-right: 50px;
-}
-
-nav a:hover,
-nav a.active {
-    background-color: #79946d;
-    transition: all 0.5s ease;
-}
 
 main {
     padding-top: 150px;
@@ -387,10 +309,8 @@ main img {
 }
 
 .h-img1 {
-    width: 400px;
-    height: 400px;
-    margin-top: 210px;
-    margin-right: 210px;
+    width: 550px;
+    height: 550px;
 }
 
 .h-img2 {
@@ -694,9 +614,15 @@ li {
 
     .h-img1,
     .h-img2 {
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
+height: 350px;
+width: 350px;
+  
+    }
+
+    .conteiner-history{
+        padding-bottom: 3rem;
+        gap: 40px;
+
     }
 
     .header {
@@ -714,8 +640,23 @@ li {
         gap: 5px;
     }
 
-    .history-img {
-        display: none;
+    .conteiner-history {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .history-text{
+        height: auto;
+
+    }
+    .fundo4 {
+        height: 100%;
+    }
+
+    .history-img{
+        width: 250px;
+        height: 250px;
     }
 
     .fundo6 {
