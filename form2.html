@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/assets/CSS/form.css">
+  <link rel="icon" type="image/png" href="assets/IMG/logo_branco.png">
+
   <link rel="stylesheet" href="assets/CSS/header.css">
   <link rel="stylesheet" href="assets/CSS/footer.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -13,7 +16,7 @@
   <title>Inscrição Projeto Flow</title>
 </head>
 
-<body>
+<body style="background-color: #fdf8e7;">
 
   <div>
     <header class="header">
@@ -82,31 +85,36 @@
             voluntariado?</label>
           <textarea class="form-control" id="motivo" rows="3" placeholder="Digite sua resposta" required
             style=" width: 91%;"></textarea>
-            <div style="padding-top: 1rem;">
-              <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                style="background-color: #79946d; border-color: #79946d;">Finalizar</button>
-        
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Formulário de Inscrição</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <p>Todas as informações inseridas serão armazenadas no nosso banco de dados em conformidade com a Lei nº
-                        13.709/2018 (LGPD).</p>
-                      <div class="text-center mt-4">
-                        <form action="index.html" method="get">
-                          <button type="submit" class="btn btn-success"
-                            style="background-color: #79946d; border-color: #79946d;">Finalizar Inscrição</button>
-                        </form>
-                      </div>
+          <div style="padding-top: 1rem;">
+            <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              style="background-color: #79946d; border-color: #79946d;">Finalizar</button>
+            <a href="voluntariado.html"><button type="button" class="btn btn-info" data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                style="background-color: #79946d; border-color: #79946d;">Voltar</button></a>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Formulário de Inscrição</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Todas as informações inseridas serão armazenadas no nosso banco de dados em conformidade com a
+                      Lei nº
+                      13.709/2018 (LGPD).</p>
+                    <div class="text-center mt-4">
+                      <form action="index.html" method="get">
+                        <button type="submit" class="btn btn-success"
+                          style="background-color: #79946d; border-color: #79946d;">Finalizar Inscrição</button>
+                      </form>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
         </div>
       </div>
 
@@ -142,14 +150,16 @@
             <ul>
               <li style="padding-right: 0px;"><a href="#">JBS</a></li>
               <li style="padding-right: 0px;"><a href="#">Eureciclo</a></li>
-              <li style="padding-right: 0px;"><a href="#">Kokohama</a></li>
+              <li style="padding-right: 0px;"><a href="#">Yokohama</a></li>
             </ul>
           </div>
           <div class="footer-section ">
             <h3>CONTATO</h3>
             <ul>
-              <li style="padding-right: 0px;"><a href="https://www.instagram.com/green.flowoficial?igsh=MWtiZDNuczIya3FjZw==">Instagram</a></li>
-              <li style="padding-right: 0px;"><a href="https://www.linkedin.com/company/green-flow/about/?viewAsMember=true">Linkedin</a></li>
+              <li style="padding-right: 0px;"><a
+                  href="https://www.instagram.com/green.flowoficial?igsh=MWtiZDNuczIya3FjZw==">Instagram</a></li>
+              <li style="padding-right: 0px;"><a
+                  href="https://www.linkedin.com/company/green-flow/about/?viewAsMember=true">Linkedin</a></li>
               <li style="padding-right: 0px;"><a href="mailto:greenflow@gmail.com">greenflow@gmail.com</a>
               </li>
             </ul>
