@@ -81,38 +81,39 @@
           <label for="motivo">Qual foi o motivo de incentivo para se inscrever no projeto de
             voluntariado?</label>
           <textarea class="form-control" id="motivo" rows="3" placeholder="Digite sua resposta" required
-            style=" max-width: 1000px;"></textarea>
+            style=" width: 91%;"></textarea>
+            <div style="padding-top: 1rem;">
+              <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                style="background-color: #79946d; border-color: #79946d;">Finalizar</button>
+        
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Formulário de Inscrição</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Todas as informações inseridas serão armazenadas no nosso banco de dados em conformidade com a Lei nº
+                        13.709/2018 (LGPD).</p>
+                      <div class="text-center mt-4">
+                        <form action="index.html" method="get">
+                          <button type="submit" class="btn btn-success"
+                            style="background-color: #79946d; border-color: #79946d;">Finalizar Inscrição</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
 
     </form>
 
 
-    <div>
-      <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal"
-        style="background-color: #79946d; border-color: #79946d;">Finalizar</button>
 
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Formulário de Inscrição</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <p>Todas as informações inseridas serão armazenadas no nosso banco de dados em conformidade com a Lei nº
-                13.709/2018 (LGPD).</p>
-              <div class="text-center mt-4">
-                <form action="index.html" method="get">
-                  <button type="submit" class="btn btn-success"
-                    style="background-color: #79946d; border-color: #79946d;">Finalizar Inscrição</button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     </form>
   </div>
 

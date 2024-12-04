@@ -66,6 +66,10 @@ nav a {
     /* Ocultar no desktop */
 }
 
+#divvoluntariado {
+    padding-left: 118px;
+}
+
 .nav-links {
     display: flex;
     gap: 40px;
@@ -143,4 +147,12 @@ nav a.active {
     nav a {
         font-size: 14px;
     }
+}
+
+@media (max-width: 468px) {
+    #divvoluntariado{
+        padding-left: 12px;
+    }
+
+
 }
