@@ -11,7 +11,7 @@ body {
 }
 
 
-a{
+a {
     text-decoration: none;
     cursor: pointer;
 }
@@ -327,6 +327,7 @@ main img {
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 30px;
+    padding-bottom: 3rem;
 }
 
 .fundo5 li {
@@ -609,12 +610,12 @@ li {
 
     .h-img1,
     .h-img2 {
-height: 350px;
-width: 350px;
-  
+        height: 350px;
+        width: 350px;
+
     }
 
-    .conteiner-history{
+    .conteiner-history {
         padding-bottom: 3rem;
         gap: 40px;
 
@@ -641,15 +642,16 @@ width: 350px;
     }
 
 
-    .history-text{
+    .history-text {
         height: auto;
 
     }
+
     .fundo4 {
         height: 100%;
     }
 
-    .history-img{
+    .history-img {
         width: 250px;
         height: 250px;
     }
